@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+</head>
+
+<body>
+    <img src="/images/image.jpg" width="500" alt="Welcome image">
+    <h3>Sign up</h3>
+    <form>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+
+        <label for="Miss.">Miss</label>
+        <input type="radio" id="Miss." value="Miss." name="title">
+
+        <label for="Dr.">Dr</label>
+        <input type="radio" id="Dr." value="Dr." name="title"><br><br>
+
+        <label for="username">username</label>
+        <input type="text" id="username"><br><br>
+
+        <label for="email">email</label>
+        <input type="email" id="email" placeholder="janedoe@gmail.com" required><br><br>
+
+        <label for="Mobile number">Mobile number</label>
+        <input type="tel" id="Mobile number" placeholder="+254xxxxxxxxx" pattern="[0-9]{3}[0-9][9]" required><br><br>
+
+        <label for="password">password</label>
+        <input type="password" id="password" minlength="7" maxlength="15" required><br><br>
+
+        <label for="password">retype password</label>
+        <input type="password" id="password"><br><br>
+
+        <label for="where did you hear about us">Where did you hear about us</label>
+        <select id="where did you hear about us">
+            <option value="Facebook">Facebook</option>
+            <option value="referral">referral</option>
+            <option value="University website">University website</option>
+            <option value="linkedIn">linkedIn</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+
+
+        <label for="years">Work experience in years</label>
+        <input type="number" id="years" min="0" value="0"><br><br>
+
+        <label for="files">Upload your cv</label>
+        <input type="file" id="files" accept="images/png,images/jpg,images/jpeg,
+        .pdf,.docx,.xls,.ppt,.doc"><br><br>
+
+        <label for="comments">why do you want to work with us</label>
+        <textarea id="comments" rows="3" cols="25"></textarea><br><br>
+
+        <label for="updates">I want to receive email updates</label>
+        <input type="checkbox" id="updates"><br>
+
+        <label for="T&Cs">Terms and conditions</label>
+        <input type="checkbox" id="T&Cs" required><br><br>
+
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+        <h3>User Information</h3>
+        <table border="1">
+            <tr align="center">
+                <th style="background-color: red;">Name</th>
+                <th style="background-color: orange;">Email</th>
+                <th style="background-color: yellow;">Phone Number</th>
+
+            </tr>
+
+            <tr align="center" style="background-color: aqua;">
+                <td width="100">Maureen</td>
+                <td width="100">xcv@gmail.com</td>
+                <td width="100">0745454545</td>
+
+            </tr>
+
+            <tr align="center" style="background-color: aqua;">
+                <td width="100">Wambui</td>
+                <td width="100">wambui@gmail.com</td>
+                <td width="100">0727272727</td>
+
+            </tr>
+
+            <tr align="center" style="background-color: aqua;">
+                <td width="100">Ngugi</td>
+                <td width="100">ngugi@gmail.com</td>
+                <td width="100">0798989898</td>
+
+            </tr>
+
+            <tr align="center" style="background-color: aqua;">
+                <td width="100">Hamilton</td>
+                <td width="100">hamilton@gmail.com</td>
+                <td width="100">0765656566</td>
+
+            </tr>
+
+
+        </table>
+        <p>Visit <a href="https://google.com" target="_blank">Google</a> for more information.</p>
+    </form>
+</body>
+
+</html>
